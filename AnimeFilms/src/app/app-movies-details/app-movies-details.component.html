@@ -1,0 +1,19 @@
+<div class="container">
+    <div *ngIf="detail" class="content">
+        <h2>{{detail.title}}</h2>
+        <div class="detail">
+            <img src="{{detail.image}}" alt="">
+            <div>
+                <p>DESCRIPTION:</p>
+                <p class="description">{{detail.description}}</p>
+                <p>DIRECTOR: {{detail.director}}</p>
+                <p>PRODUCER: {{detail.producer}}</p>
+                <p>RELEASE DATE: {{detail.release_date}}</p>
+                <p>RUNNING TIME: {{detail.running_time}}</p>
+                <p>SCORE: {{detail.rt_score}}</p>
+                <button (click)="AddToFavorite()">ADD TO FAVORITE</button>
+            </div>
+        </div>
+    </div>
+    <app-movies-list></app-movies-list>
+</div>

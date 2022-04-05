@@ -1,0 +1,8 @@
+
+<h4>Movies List</h4>
+<div class="scrollList">
+    <div *ngFor="let movie of MoviesList" class="list">
+        <img src="{{movie.image}}" alt="">
+        <a href="/app-movies-details/{{movie.id}}">{{movie.title}}</a>
+    </div>
+</div>

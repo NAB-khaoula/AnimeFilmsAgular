@@ -1,0 +1,22 @@
+.scrollList{
+    max-height: 500px;
+    overflow-y: scroll
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
+h6{
+    padding: 10px;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    color: #155997;
+}

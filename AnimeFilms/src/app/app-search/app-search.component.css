@@ -1,0 +1,20 @@
+::placeholder {
+    color: black;
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 300px;
+    opacity: 0.1;
+    line-height: 30px;
+    align-self: center;
+    height: max-content;
+    font-weight: bolder;
+}
+
+input:focus {
+    opacity: 0.65;
+    outline: none;
+}

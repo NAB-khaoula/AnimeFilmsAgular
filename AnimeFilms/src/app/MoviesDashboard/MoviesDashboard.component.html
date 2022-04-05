@@ -1,0 +1,9 @@
+<div class="dashboard">
+    <div *ngFor="let movie of listOfMovies" class="card">
+        <img src="{{movie.image}}" class="card-img-top" alt="{{movie.title}}">
+        <div class="cardInfo">
+            <h4>{{movie.title}}</h4>
+            <a routerLink="/app-movies-details/{{movie.id}}">Details</a>
+        </div>
+    </div>
+</div>
